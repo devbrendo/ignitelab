@@ -14,7 +14,7 @@ jobs:
         uses: action/checkout@v3
 
       -name: Setup Node.js
-        use:action/setup-node@v3
+        use: action/setup-node@v3
         with:
           node-version: 16
       
